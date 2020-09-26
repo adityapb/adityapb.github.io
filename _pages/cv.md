@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Full CV](/files/Academic_Resume.pdf)
+
 Education
 ======
 * B.Tech. in Aerospace Engineering, Indian Institute of Technology, Bombay, 2019
