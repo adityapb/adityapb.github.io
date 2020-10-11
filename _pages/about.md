@@ -15,7 +15,8 @@ in 2019 with a Bachelors and Masters in Aerospace Engineering.
 I am an Aerospace Engineer by training and a computer science enthusiast at
 heart. On most weekends you will find me working on one of the many open
 source projects I contribute to. My primary interest lies in developing
-high level tools for high performance scientific computing.
+efficient parallel algorithms for scientific applications and high level tools 
+for high performance computing.
 
 Over the past few decades there has been a massive increase in computing speeds
 not only due to faster CPU's but also with the introduction of new parallel
