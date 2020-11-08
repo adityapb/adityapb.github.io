@@ -29,7 +29,7 @@ the painstaking process of rewriting their code in a new language. Not to mentio
 most of these languages are very low level and need a fair bit of fine tuning
 to get the optimal performance.
 
-I believe that having a high level unified language or tools that can seamlessly 
+I believe that having high level abstractions and tools that can seamlessly 
 work on multiple HPC platforms as well as on heterogeneous platforms without 
 users having to write different versions of their code and worry about fine
 tuning parameters for performance would greatly improve productivity
