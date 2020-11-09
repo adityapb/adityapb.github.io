@@ -14,9 +14,7 @@ I graduated from [Indian Institute of Technology, Bombay](http://www.iitb.ac.in/
 in 2019 with a Bachelors and Masters in Aerospace Engineering.
 I am an Aerospace Engineer by training and a computer science enthusiast at
 heart. On most weekends you will find me working on one of the many open
-source projects I contribute to. My primary interest lies in developing
-efficient parallel algorithms for scientific applications and high level tools 
-for high performance computing.
+source projects I contribute to. 
 
 Over the past few decades there has been a massive increase in computing speeds
 not only due to faster CPU's but also with the introduction of new parallel
