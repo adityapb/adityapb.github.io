@@ -15,7 +15,7 @@ of its features. Several example results are shown to demonstrate the range of f
 PySPH provides.'
 date: 2019-12-10
 venue: 'ArXiv Preprints (paper currently in review)'
-citation: 'Prabhu Ramachandran, Kunal Puri, Aditya Bhosale, A Dinesh, Abhinav Muta, Pawan Negi, Rahul Govind, Suraj Sanka, Pankaj Pandey, Chandrashekhar Kaushik, Anshuman Kumar, Ananyo Sen, Rohan Kaushik, Mrinalgouda Patil, Deep Tavker, Dileep Menon, Vikas Kurapati, Amal S Sebastian, Arkopal Dutt, & Arpit Agarwal. (2019). PySPH: a Python-based framework for smoothed particle hydrodynamics.'
+citation: 'Prabhu Ramachandran, Aditya Bhosale, Kunal Puri, Pawan Negi, Abhinav Muta, A Dinesh, Dileep Menon, Rahul Govind, Suraj Sanka, Amal S Sebastian, Ananyo Sen, Rohan Kaushik, Anshuman Kumar, Vikas Kurapati, Mrinalgouda Patil, Deep Tavker, Pankaj Pandey, Chandrashekhar Kaushik, Arkopal Dutt, & Arpit Agarwal. (2020). PySPH: a Python-based framework for smoothed particle hydrodynamics.'
 ---
 PySPH is a Python-based framework for particle methods in general and Smoothed Particle 
 Hydrodynamics (SPH) in particular. PySPH allows a user to define a complete SPH simulation 
