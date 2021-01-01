@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am Aditya. I'm a senior analyst in the Risk Division at Goldman Sachs
+Hi! I am Aditya. I'm an Associate in the Risk Division at Goldman Sachs
 working in the cloud computing team.
 I graduated from [Indian Institute of Technology, Bombay](http://www.iitb.ac.in/) 
 in 2019 with a Bachelors and Masters in Aerospace Engineering.
