@@ -7,6 +7,7 @@ permalink: /teaching/
 
 ## Teaching
 
-* Introduction to Physics (1961--63) [Textbook here!](https://www.feynmanlectures.caltech.edu/)
+* Data Analysis and Interpretation, *Indian Institute of Technology, Bombay*, 2019
+* Aircraft Design Lab, *Indian Institute of Technology, Bombay*, 2018
 
 

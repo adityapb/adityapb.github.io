@@ -1,7 +1,7 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: Aditya Bhosale
+email: adityapb@illinois.edu
+description: Academic webpage of Aditya Bhosale
 baseurl: ""
 url: ""
 
@@ -12,18 +12,17 @@ url: ""
 
 # Footer info
 affiliation: >
-    Richard Feynman<br/>
-    Professor of Physics<br/>
-    California Institute of Technology
+    Aditya Bhosale<br/>
+    Ph.D. Candidate in Computer Science<br/>
+    University of Illinois Urbana-Champaign
 
 location: >
-  California Institute of Technology<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+  University of Illinois Urbana-Champaign<br/>
+  201 N Goodwin Ave,<br/>
+  Urbana, IL 61801
 
 contact: >
-    <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
-    <a href="https://github.com/sbryngelson/academic-website-template"><i class="fa fa-github fa-1x"></i> Use this site as a template!</a>
+    <a href="mailto:adityapb@illinois.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact me via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
@@ -32,7 +31,6 @@ nav_pages:
   - name: talks
   - name: research
   - name: software
-  - name: team
   - name: teaching
 
 include:
