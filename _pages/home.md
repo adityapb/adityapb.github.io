@@ -8,8 +8,8 @@ permalink: /
 ### Welcome!
 
 Hi! I am Aditya. I am a Ph.D. student in the Computer Science department at the
-University of Illinois Urbana-Champaign. My interests are in the area of 
-high performance computing, compilers, and scientific computing. I am a graduate 
+University of Illinois Urbana-Champaign. My primary research interests are in the area of 
+parallel programming, compilers, and scientific computing. I am a graduate 
 research assistant at the [Parallel Programming Lab](http://charm.cs.uiuc.edu/).
 I am currently also a student intern at the [Lawrence Livermore National Lab](https://www.llnl.gov/).
 
