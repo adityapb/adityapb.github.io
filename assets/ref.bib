@@ -65,6 +65,44 @@ abstract="Python has emerged as a popular programming language for scientific co
 isbn="978-3-031-61763-8"
 }
 
+@inproceedings{flexscience25,
+author = {Bhosale, Aditya and Kale, Laxmikant and Kokkila-Schumacher, Sara},
+title = {Efficient and Cost-Effective HPC on the Cloud},
+year = {2025},
+isbn = {9798400718694},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3731545.3744667},
+doi = {10.1145/3731545.3744667},
+abstract = {HPC applications are increasingly utilizing cloud resources due to their cost-effectiveness. Among these resources, spot compute instances present an opportunity to run applications at deep discounts compared to on-demand instances. However, they present unique challenges for tightly-coupled HPC applications due to potential interruptions. Traditional parallel programming models like MPI are not inherently fault-tolerant, and existing methods to handle these interruptions are inefficient and require significant programmer effort. In this paper, we present Charm++ as an alternative solution that natively supports fault tolerance, dynamic load balancing, and resource rescaling. We present a tool to run Charm++ applications with a mix of on-demand and spot instances which can detect and efficiently handle spot interruptions without a shared filesystem. We show that using spot instances can result in up to 60\% cost savings for our benchmark application.},
+booktitle = {Proceedings of the 34th International Symposium on High-Performance Parallel and Distributed Computing},
+articleno = {52},
+numpages = {5},
+keywords = {HPC, spot instances, fault-tolerance, cost-efficiency},
+location = {University of Notre Dame Conference Facilities, Notre Dame, IN, USA},
+series = {HPDC '25}
+file = {flexscience25.pdf}
+}
+
+@inproceedings{canopie25,
+author = {Bhosale, Aditya and Chandrasekar, Kavitha and Kale, Laxmikant and Kokkila-Schumacher, Sara},
+title = {An elastic job scheduler for HPC applications on the cloud},
+year = {2025},
+isbn = {9798400718717},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3731599.3767358},
+doi = {10.1145/3731599.3767358},
+abstract = {The last few years have seen an increase in adoption of the cloud for running HPC applications. The pay-as-you-go cost model of these cloud resources has necessitated the development of specialized programming models and schedulers for HPC jobs for efficient utilization of cloud resources. A key aspect of efficient utilization is the ability to rescale applications on the fly to maximize the utilization of cloud resources. Most commonly used parallel programming models like MPI have traditionally not supported autoscaling either in a cloud environment or on supercomputers. While more recent work has been done to implement this functionality in MPI, it is still nascent and requires additional programmer effort. Charm++ is a parallel programming model that natively supports dynamic rescaling through its migratable objects paradigm. In this paper, we present a Kubernetes operator to run Charm++ applications on a Kubernetes cluster. We then present a priority-based elastic job scheduler that can dynamically rescale jobs based on the state of a Kubernetes cluster to maximize cluster utilization while minimizing response time for high-priority jobs. We show that our elastic scheduler, with the ability to rescale HPC jobs with minimal overhead, demonstrates significant performance improvements over traditional static schedulers.},
+booktitle = {Proceedings of the SC '25 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+pages = {151–162},
+numpages = {12},
+keywords = {HPC, job scheduler, kubernetes, elasticity},
+location = {
+},
+series = {SC Workshops '25}
+file = {canopie25.pdf}
+}
 
 @incollection{charmtyles2023,
     title        = {CharmTyles: Large-scale interactive Charm++ with Python},
