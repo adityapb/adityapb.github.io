@@ -106,6 +106,39 @@ series = {SC Workshops '25},
 file = {canopie25.pdf}
 }
 
+@inproceedings{ashes26,
+author = {Bhosale, Aditya and Tahilyani, Advait and Kale, Laxmikant and Kokkila-Schumacher, Sara},
+title = {Towards an Adaptive Runtime System for Cloud-Native HPC},
+year = {2026},
+abstract = {The ongoing convergence of HPC and cloud computing presents a fundamental challenge: HPC applications, designed for static and homogeneous supercomputers, are ill-suited for the dynamic, heterogeneous, and volatile nature of the cloud. Traditional parallel programming models like MPI struggle to leverage key cloud advantages, such as resource elasticity and low-cost spot instances, while also failing to address challenges like performance variability and processor heterogeneity. This paper demonstrates how the asynchronous, message-driven paradigm of the Charm++ parallel runtime system can bridge this gap. We present a set of tools and strategies that enable HPC applications to run efficiently and resiliently on dynamic cloud infrastructure across both CPU and GPU resources. Our work makes two key contributions. First, we demonstrate that rate-aware load balancing in Charm++ improves performance for applications running on heterogeneous CPU and GPU instances on the cloud. We further demonstrate how core Charm++ principles mitigate performance degradation from common cloud challenges like network contention and processor performance variability, which are exacerbated by the tightly coupled, globally synchronized nature of many science and engineering applications. Second, we extend an existing resource management framework to support GPU and CPU spot instances with minimal interruption overhead. Together, these contributions provide a robust framework for adapting HPC applications to achieve efficient, resilient, and cost-effective performance on the cloud.},
+booktitle = {2026 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},
+keywords = {HPC, cloud, resilience, spot instances, GPUs},
+series = {AsHES '26},
+file = {ashes26.pdf}
+}
+
+@inproceedings{pawatm26,
+author = {Bhosale, Aditya and Jain, Anant and Goel, Shourya and Rao, Ritvik and Sateesh Kumar, Peddoju and Kale, Laxmikant},
+title = {Efficient and Portable Support for Overdecomposition on Distributed GPU Platforms},
+year = {2026},
+abstract = {Overdecomposition enables asynchronous many-task runtimes such as Charm++ to overlap communication with computation and to balance load dynamically. Its benefits are well established on CPUs, but GPUs achieve peak efficiency with large kernels and bulk transfers, raising the concern that fine-grained execution will incur prohibitive launch, synchronization, and communication overheads. This paper investigates whether overdecomposition can be sustained efficiently on GPUs, and portably across vendors. We find that at fine granularity, the dominant costs arise not on the device but from serialization on the host, in vendor-specific ways, and that they can be mitigated transparently by the runtime: by parallelizing kernel submission and completion detection across a hierarchy of processes and threads sharing each GPU, and by routing every message through device-to-device paths suited to its destination. We evaluate these techniques in a single-source Charm++/Kokkos environment that runs unchanged on NVIDIA and AMD systems. On Task Bench, they reduce the minimum effective task granularity from 26-37us to 4us, and in weak and strong scaling studies of three mini-applications, Jacobi2D, MiniMD, and LULESH, on up to 64 A40 and 32 MI250X GPUs, overdecomposed execution matches MPI performance across a range of overdecomposition factors.},
+booktitle = {Proceedings of the SC '26 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+keywords = {performance, portability, GPU, overdecomposition, Kokkos, Charm++},
+series = {PAW-ATM '26},
+file = {pawatm26.pdf}
+}
+
+@inproceedings{canopie26,
+author = {Bhosale, Aditya and Kale, Laxmikant},
+title = {No-Restart Elasticity in an Adaptive Runtime System for Cloud-Native HPC},
+year = {2026},
+abstract = {Exploiting discounted spot instances for HPC requires an application to change its resource allocation at runtime, shrinking ahead of an interruption and expanding onto replacement capacity. Existing elasticity mechanisms implement rescaling as a full process teardown followed by a cold restart at the new processor count, and the restart stage accounts for up to 95\% of the total overhead, growing with node count and increasing substantially on GPUs due to CUDA context initialization. In this paper, we present a no-restart rescaling mechanism for the Charm++ runtime system in which surviving processes never exit: a rescaling operation consists of a membership negotiation with a lightweight external coordinator, reconciliation of the UCX communication endpoints with the new cluster view, and a return to the top of the runtime initialization path that preserves live application state. This reduces the cost of a rescaling operation from multiple seconds to 8-15 ms on CPUs and 7-11 ms on GPUs, at 4 to 32 instances. Because processes survive, GPU device state persists in place, eliminating the checkpointing daemons previously required for GPU elasticity, and a launcher-independent bootstrap mechanism removes the dependence on supervised process managers, which are incompatible with spot instance interruptions. Integrated with an existing spot instance management framework, the mechanism cuts the end-to-end overhead of eight simultaneous interruptions to 0.2\% of runtime on CPUs and 0.9\% on GPUs, and raises the rate at which a job can be rescaled below 1\% overhead by a factor of seven.},
+booktitle = {Proceedings of the SC '26 Workshops of the International Conference for High Performance Computing, Networking, Storage and Analysis},
+keywords = {HPC, cloud, elasticity, spot instances, GPUs},
+series = {CANOPIE-HPC '26},
+file = {canopie26.pdf}
+}
+
 @incollection{charmtyles2023,
     title        = {CharmTyles: Large-scale interactive Charm++ with Python},
     author       = {Aditya Bhosale and Nikunj Gupta and Zane Fink and Aryan Sharma},
