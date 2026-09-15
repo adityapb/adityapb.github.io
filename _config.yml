@@ -70,8 +70,9 @@ scholar:
   source: /assets/
   bibliography: ref.bib
   bibliography_template: bibtemplate
-  sort_by: year, month
+  sort_by: year, month, priority
   order: descending
+  bibtex_skip_fields: [abstract, month_numeric, priority]
 
   replace_strings: true
   join_strings: true
